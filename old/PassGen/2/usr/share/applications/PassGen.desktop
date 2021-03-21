@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Name=PassGen
+Icon=PassGen
+Exec=PassGen
+
+X-Desktop-File-Install-Version=0.20

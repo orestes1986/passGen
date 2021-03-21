@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="eye-drawing.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="341.98259"
+     inkscape:cy="664.78821"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Open eye"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       d="m 99.21881,152.87946 c 30.32834,0 34.78733,-10.98976 60.28714,-25.96875 -25.49981,-14.72232 -29.9588,-25.52376 -60.287137,-25.52376 -33.216778,0 -35.262599,18.71714 -60.665243,25.52376 25.40264,6.92529 27.44846,25.96875 60.66524,25.96875 z"
+       id="path3682-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="scscs"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="eye">
+    <path
+       style="fill:#000001;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path4588"
+       sodipodi:type="arc"
+       sodipodi:cx="-105.69158"
+       sodipodi:cy="-127.32047"
+       sodipodi:rx="20.73786"
+       sodipodi:ry="20.032738"
+       sodipodi:start="2.5852338"
+       sodipodi:end="2.3872598"
+       d="m -123.30183,-116.74123 a 20.73786,20.032738 0 0 1 5.80081,-27.04649 20.73786,20.032738 0 0 1 28.251185,4.25863 20.73786,20.032738 0 0 1 -3.00545,27.46787 20.73786,20.032738 0 0 1 -28.548565,-1.54078 l 15.11227,-13.71847 z"
+       transform="rotate(-177.16544)"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke-width:0.552019;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path4588-3"
+       sodipodi:type="arc"
+       sodipodi:cx="-165.73634"
+       sodipodi:cy="12.058161"
+       sodipodi:rx="11.602139"
+       sodipodi:ry="10.911241"
+       sodipodi:start="2.5852338"
+       sodipodi:end="2.3872598"
+       d="m -175.58869,17.820362 a 11.602139,10.911241 0 0 1 3.24536,-14.7314266 11.602139,10.911241 0 0 1 15.80559,2.31955 11.602139,10.911241 0 0 1 -1.68144,14.9609376 11.602139,10.911241 0 0 1 -15.97197,-0.839216 l 8.45481,-7.472046 z"
+       transform="matrix(-0.52416016,-0.85161971,0.81725116,-0.57628164,0,0)"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.93480062;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4588-3-5"
+       sodipodi:type="arc"
+       sodipodi:cx="-163.84412"
+       sodipodi:cy="5.4433575"
+       sodipodi:rx="14.048733"
+       sodipodi:ry="14.209959"
+       sodipodi:start="2.5852338"
+       sodipodi:end="2.3872598"
+       d="m -175.77407,12.947604 a 14.048733,14.209959 0 0 1 3.92972,-19.1850746 14.048733,14.209959 0 0 1 19.13859,3.0208032 14.048733,14.209959 0 0 1 -2.03602,19.4839734 14.048733,14.209959 0 0 1 -19.34005,-1.092931 l 10.23771,-9.7310175 z"
+       transform="matrix(-0.59513675,-0.80362444,0.86275741,-0.50561809,0,0)"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Open eye lid"
+     style="display:inline">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 99.585779,101.49114 c -35.7196,0.30254 -44.697424,25.20786 -61.03221,25.41957 16.334785,-0.21171 34.280591,-20.40834 59.852425,-21.00012 21.009836,-0.48621 46.794686,15.82339 61.099956,21.00012 -14.30527,-5.17673 -31.82328,-27.417681 -59.920171,-25.41957 z"
+       id="path3714-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccscc"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+  </g>
+  <g
+     id="g4585"
+     inkscape:groupmode="layer"
+     inkscape:label="Closed eye"
+     style="display:inline">
+    <path
+       sodipodi:nodetypes="scscs"
+       inkscape:connector-curvature="0"
+       id="path4583"
+       d="m 99.21881,152.87946 c 30.32834,0 34.78733,-10.98976 60.28714,-25.96875 -25.49981,-14.72232 -29.9588,-25.52376 -60.287137,-25.52376 -33.216778,0 -35.262599,18.71714 -60.665243,25.52376 25.40264,6.92529 27.44846,25.96875 60.66524,25.96875 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Closed eye lid"
+     style="display:inline">
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.01269794;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 99.58163,153.00704 c -35.71809,-0.31029 -44.695535,-25.85319 -61.029631,-26.07033 16.334095,0.21714 34.279145,20.9308 59.849903,21.53774 21.008938,0.49865 46.792698,-16.22848 61.097368,-21.53774 -14.30467,5.30926 -31.82194,28.11959 -59.91764,26.07033 z"
+       id="path3714-7-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccscc"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+  </g>
+</svg>

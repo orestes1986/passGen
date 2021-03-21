@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>harbour-PassGen 1.0-7</title>
+    <link rel="shortcut icon" type="image/svg" href="./media/key.ico">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style/styleSheet.css">
+		<script src="js/old/crypt1.js"></script>
+		<script src="js/old/crypt3.js"></script>
+		<script src="js/old/crypt5.js"></script>
+		<script src="js/old/crypt6.js"></script>
+		<script src="js/old/crypt7.js"></script>
+		<script src="js/crypt.js"></script>
+		<script src="js/caller.js"></script>
+		<style></style><script></script>
+  </head>
+  <body>
+    <div>
+        <h1 class="title" id="title_head"><a href="./index.html">PassGen</a></h1>
+        <span class="title info_image" id="info_img"><img class="info_image_img" src="media/info.png" /></span>
+        <p id="generalInfo">This is an application that helps you have strong passwords, different for each service without having to memorize or store them anywhere!</p>
+    </div>
+    <div id="form">
+        <div id="insignia_input" class="fake_input">
+            <input type="password" id="userText" value="" placeholder="Your insignia">
+                <div  onclick="togglePass('userText', 'userToggle')" class="toggle_eye_btn"><img src="media/closed-eye.png" class= "toggle_eye" id="userToggle" /></div>
+            </input>
+        </div>
+        <div id="service_input" class="fake_input">
+            <input type="password" id="serviceText" value="" placeholder="Service">
+            <div  onclick="togglePass('serviceText', 'serviceToggle')" class="toggle_eye_btn"><img src="media/closed-eye.png" class= "toggle_eye" id="serviceToggle" /></div>
+            </input>
+        </div>
+        <div id="times_input" class="fake_input num_input">
+            <input type="number" id="times" value="" placeholder="This is my n'th password"></input>
+        </div>
+        <div id="length_input" class="fake_input num_input">
+            <input type="number" id="maxLen" value="" placeholder="max length (default 20)"></input>
+        </div>
+        <div id="chars_input" class="fake_input">
+           <input type="text" id="unChar" value="" placeholder="Unwanted characters">
+	     <div class="toggle_char_btn">
+		<label for="charCheck" id="char_lbl">Use all characters</label>
+		<input type="checkbox" class= "toggle_char" id="charCheck" name="charCheck" value="Characters" checked>
+	     </div>
+	   </input>
+        </div>
+        <div id="pass_output" class="fake_input">
+            <input type="password" id="outText" value="" placeholder="Your Password" readonly>
+            <div  onclick="togglePass('outText', 'outCheck')" class="toggle_eye_btn"><img src="media/closed-eye.png" class= "toggle_eye" id="outCheck" /></div>
+            </input>
+        </div>
+    </div>
+    <div id="btns">
+        <div id="passwordStuff">
+            <span ="password_btn">
+                <button type="button" id="password_button" class="submit_btn" onclick="call(userText.value, serviceText.value, times.value, maxLen.value, unChar.value)" value="Generate">Generate n copy</button>
+            </span>
+            <span id="version_stuff">
+                <label for="algo_version">
+                Version
+                </label><br />
+                <select id="algo_version">
+                    <option value="0">2.0</option>
+                    <option value="7">1.7</option>
+                    <option value="6">1.6</option>
+                    <option value="5">1.5</option>
+                    <option value="3">1.3</option>
+                    <option value="1">1.1</option>
+                </select>
+            </span>
+        </div>
+<!--         <div id="masterStuff"> -->
+            <button type="button" id="generateMaster" class="submit_btn" onclick="masterCall()" value="Master password">Master</button>
+            <span class="info_image" id="masterInfo_btn"><img class="info_image_img" src="media/info.png" /></span>
+            <p class="toBeRevealed" id="masterInfo">Click to generate a master password (you would have to save that somewhere as it is randomly generated)</p>
+<!--         </div> -->
+    </div>
+	<div id="version">
+        <a href="./old/index.html">Older versions</a>
+		<h3>Version 2.0</h3>
+	</div>
+  </body>
+</html>

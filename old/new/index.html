@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>harbour-PassGen 1.0-7</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style/styleSheet.css">
+		<script src="js/crypt.js"></script>
+		<script src="js/caller.js"></script>
+    <style></style>
+  </head>
+  <body>
+    <div id="heading">
+        <h1><a href="../../index.html">PassGen</a></h1>
+        <h3>This is an application that helps you have strong passwords, different for each service without having to memorize or store them anywhere!</h3>
+    </div>
+    <div id="myDivForForm">
+        <form>
+		    <div id="insignia_input">
+                <br>Your insignia<br>
+			    <input type="text" id="userText" value=""></input>
+    	    </div>
+			<div id="service_input">
+                <br>Service<br>
+			    <input type="text" id="serviceText" value=""></input>
+    	    </div>
+			<div id="times_input">
+                <br>This is my n'th password<br>
+                <input type="text" id="times" value=""></input>
+	        </div>
+			<div id="length_input">
+                <br>Maximum length (default 20)<br>
+			    <input type="text" id="maxLen" value=""></input>
+    	    </div>
+			<div id="chars_input">
+                <br>Unwanted characters<br>
+    			<input type="text" id="unChar" value=""></input>
+            </div>
+			<div id="pass_output">
+                <br>Your password<br>
+    		    <input type="text" id="outText" value=""></input>
+            </div>
+			<div id="generate_button">
+                <button  type="button" id="generate" onclick="call(userText.value, serviceText.value, times.value, maxLen.value, unChar.value)" value="Generate">Generate</button>
+			</div>
+		</form>
+        <a href="../">Older versions</a>
+	</div>
+	<div id="version">
+		<h3>Version 2</h3>
+	</div>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>PassGen 1.0-1</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="js/crypt.js"></script>
+    <style></style>
+  </head>
+  <body>
+  <a href="../../index.html">PassGen</a>
+	<form>
+	  <p><input type="text" id="userText" value="Your insignia"></input></p>
+	  <p><input type="text" id="serviceText" value="Service"></input></p>
+	  <p><input type="text" id="times" value="This is my n'th password"></input></p>
+	  <p><input type="text" id="maxLen" value="Maximum length (<16)"></input></p>
+	  <p><input type="text" id="unChar" value="Unwanted characters"></input></p>
+	  <p><div type="text" id="outText" width = "400px">Your password</div></p>
+	  <p><button  type="button" id="Submit" onclick="func(userText.value, serviceText.value, times.value, maxLen.value, unChar.value)" value="Generate">Generate</button></p>
+	</form>
+  </body>
+</html>

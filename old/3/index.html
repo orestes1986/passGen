@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>harbour-PassGen 1.0-3</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="style/styleSheet.css">
+		<script src="js/crypt.js"></script>
+		<script src="js/caller.js"></script>
+    <style></style>
+  </head>
+  <body>
+    <h1><a href="../../index.html">PassGen</a></h1>
+    <h3>This is an application that helps you have strong passwords, different for each service without having to memorize or store them anywhere!</h3>
+    <div id="myDivForForm">
+        <form>
+		    <div>
+                <br>Your insignia<br>
+			    <input type="text" id="userText" value=""></input>
+    	    </div>
+			<div>
+                <br>Service<br>
+			    <input type="text" id="serviceText" value=""></input>
+    	    </div>
+			<div>
+                <br>This is my n'th password<br>
+                <input type="text" id="times" value=""></input>
+	        </div>
+			<div>
+                <br>Maximum length (max 16)<br>
+			    <input type="text" id="maxLen" value=""></input>
+    	    </div>
+			<div>
+                <br>Unwanted characters<br>
+    			<input type="text" id="unChar" value=""></input>
+            </div>
+			<div>
+                <br>Your password<br>
+    		    <input type="text" id="outText" value=""></input>
+            </div>
+			<div>
+                <button  type="button" id="Submit" onclick="call(userText.value, serviceText.value, times.value, maxLen.value, unChar.value)" value="Generate">Generate</button>
+			</div>
+		</form>
+	</div>
+    <div id="info">Fill in the fields and the app will generate a password, every time you fill in the same info, the same password will be generated. That way you won't have to memorise anything but the data you put in (e.g. your name, the service that you need the password for, like a bank or Facebook). There is a field that asks you how many times you have changed password in this service (e.g. google) so that you only have to change that number and a different password will be generated.
+Some services don't accept certain characters, you can write these characters so the password that would be generated will avoid them and of course you can control the length of the password.
+<br>You can check the strength of the generated passwords on: <a href = "http://www.passwordmeter.com/">PasswordMeter</a>
+			<h4>Also check:<br>
+			<a href = "https://openrepos.net/content/orestes1986/passgen">openrepos page of PassGen</a><br>
+			<a href = "https://github.com/orestes1986/SailfishPassGen">Git page of PassGen</a></h4>
+		</p>
+	</div>
+	<div>
+		<h3 id="version">v. 0.1-3</h3>
+	</div>
+  </body>
+</html>

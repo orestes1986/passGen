@@ -1,0 +1,147 @@
+body {
+  background-color:#6ee;
+}
+div {
+    margin: auto;
+    position: relative;
+    width: 90%;
+    max-width: 700px;
+/*     height: 100%; */
+/*     max-height: 500px; */
+/*     border: 1px solid; */
+}
+/*#heading {
+    position: absolute;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}*/
+/* .num_input { */
+/*     display: inline; */
+/*     width: 30%; */
+/* } */
+/* .num_input input { */
+/*     position: relative; */
+/*     height: 10%; */
+/* } */
+.info_image_img {
+/*     vertical-align: bottom; */
+    width: 20px;
+}
+.fake_input {
+    border: 1px solid;
+/*    margin: 1%;
+    padding: 5%;*/
+    margin: auto;
+    width: 95%;
+    height: 10%;
+    border-radius: 3px;
+}
+#times, #maxLen {
+    max-width: 65%;
+}
+.fake_input input {
+    background-color:rgba(51, 170, 51, .0);
+    width: 90%;
+    height: 100%;
+    border: none;
+    font-size: x-large;
+}
+.toggle_eye_btn, .toggle_char_btn {
+    display: inline;
+    position: absolute;
+/*     position: relative; */
+/*     margin: 50%; */
+/*     width: 10%; */
+/*     border: 1px solid; */
+    max-width: 65px;
+    height: 100%;
+    cursor: pointer;
+/*     height: 100%; */
+}
+#char_lbl {
+	text-align: center;
+}
+.toggle_char_btn input {
+	margin-top: 5%;
+}
+.toggle_eye, .toggle_char {
+    position: relative;
+/*     left: 30px; */
+    margin-top: 50%;
+    margin-left: 25%;
+/*     min-width: 25px; */
+/*     min-height: 15px; */
+/*     width: 60%; */
+/*     height: 40%; */
+/*     width: 40px; */
+/*     height: 30px; */
+    max-width: 35px;
+    max-height: 25px;
+/*     cursor: pointer; */
+    opacity: .7;
+}
+#title_head {
+    color:#897;
+    display: inline;
+}
+#btns {
+    position: relative;
+}
+#passwordStuff {
+    display: inline;
+    float: left;
+    max-width: 25%;
+/*     float:left; */
+/*     background-color:rgba(170, 170, 51, .0); */
+/*     border: 1px solid; */
+}
+#password_btn {
+    display: inline;
+    float: left;
+/*     float:left; */
+/*     border: 1px solid; */
+}
+#version_stuff {
+    display: inline;
+    float:right;
+    position: relative;
+    top: -15px;
+/*     border: 1px solid; */
+}
+#version_stuff select {
+    position: relative;
+  margin: auto;
+/*   padding: 10px; */
+/*     border: 1px solid; */
+}
+#generateMaster {
+    display: inline;
+    float: right;
+    
+}
+#masterInfo_btn {
+    display: inline;
+    float: right;
+    
+}
+#generalInfo {
+    visibility:hidden;
+}
+#info_img:hover + #generalInfo {
+    visibility:visible;
+}
+#masterInfo {
+/*     position: relative; */
+    visibility:hidden;
+    padding: 50px;
+/*     border: 1px solid; */
+}
+#masterInfo_btn:hover + #masterInfo {
+    visibility:visible;
+}
+#version{
+    position:relative;
+/*     margin-top: 150px; */
+/*     top:90%; */
+}
