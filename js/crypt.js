@@ -287,7 +287,7 @@ function func0(us, prov, times, leng, notWant) {
             times = 0;
     }
     if ((!(isFinite(leng))) || (leng === "")) {
-            leng = 20;
+            leng = 40;
     }
 
     var strum =  us + prov + times + leng;
