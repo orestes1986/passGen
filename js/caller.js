@@ -7,13 +7,13 @@ function call(usCred, provCred, timesCred, lengCred, notWantCred) {
 }
 
 function masterCall() {
-    var j = Math.floor((Math.random() * 40) + 1);
+    var j = Math.floor((Math.random() * 10) + 1);
     var usCred = "";
     var provCred = "";
     for (i = 0; i < j; i++) { 
         usCred += Math.floor((Math.random() * (126 - 33)) + 33);
     }
-    j = Math.floor((Math.random() * 40) + 1);
+    j = Math.floor((Math.random() * 10) + 1);
     for (i = 0; i < j; i++) { 
         provCred += Math.floor((Math.random() * (126 - 33)) + 33);
     }
