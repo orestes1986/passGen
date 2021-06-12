@@ -13,7 +13,7 @@ function masterCall() {
     for (i = 0; i < j; i++) { 
         usCred += Math.floor((Math.random() * (126 - 33)) + 33);
     }
-    j = Math.floor((Math.random() * 10) + 1);
+    j = Math.floor((Math.random() * 40) + 1);
     for (i = 0; i < j; i++) { 
         provCred += Math.floor((Math.random() * (126 - 33)) + 33);
     }
