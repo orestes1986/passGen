@@ -5,7 +5,7 @@ function hsore(str, noChar, wantedLength){
 	if (document.getElementById("charCheck").checked != true) {
 		noChar += "| ~";
 	}
-	console.log(noChar)
+//	console.log(noChar)
     var crpt = new Array([]);
     var outPtt = "";
 //     console.log("str: " + str);
@@ -15,7 +15,7 @@ function hsore(str, noChar, wantedLength){
     }
 //     console.log("crpt length: " + crpt.length);
 //     console.log("Wanted length: " + wantedLength);
-    if (crpt.length < wantedLength) {
+    if (crpt.length < 40) {
 //     console.log("Too Short!!!!");
         var j = 0;
         var k = 1;
@@ -31,9 +31,9 @@ function hsore(str, noChar, wantedLength){
             crpt.push((crpt[j] + crpt[j + k]) / 2);
             j++;        
         }
-    } else if(crpt.length > wantedLength) {
+    } else if(crpt.length > 40) {
 //     console.log("Too Long!!!!");
-        crpt = crpt.splice(0, wantedLength);
+        crpt = crpt.splice(0, 40);
     }
 //     console.log("crpt length: " + crpt.length);
 //     console.log("Wanted length: " + wantedLength);
