@@ -19,7 +19,7 @@ function hsore(str, noChar, wantedLength){
 //     console.log("Too Short!!!!");
         var j = 0;
         var k = 1;
-        for (var i = crpt.length; i < wantedLength; i++) {
+        for (var i = crpt.length; i < 40; i++) {
             if (j + k >= crpt.length) {
                 j = 0;
                 k++;
