@@ -15,11 +15,11 @@ function hsore(str, noChar, wantedLength){
     }
 //     console.log("crpt length: " + crpt.length);
 //     console.log("Wanted length: " + wantedLength);
-    if (crpt.length < 40) {
+    if (crpt.length < wantedLength) {
 //     console.log("Too Short!!!!");
         var j = 0;
         var k = 1;
-        for (var i = crpt.length; i < 40; i++) {
+        for (var i = crpt.length; i < wantedLength; i++) {
             if (j + k >= crpt.length) {
                 j = 0;
                 k++;
@@ -31,9 +31,9 @@ function hsore(str, noChar, wantedLength){
             crpt.push((crpt[j] + crpt[j + k]) / 2);
             j++;        
         }
-    } else if(crpt.length > 40) {
+    } else if(crpt.length > wantedLength) {
 //     console.log("Too Long!!!!");
-        crpt = crpt.splice(0, 40);
+        crpt = crpt.splice(0, wantedLength);
     }
 //     console.log("crpt length: " + crpt.length);
 //     console.log("Wanted length: " + wantedLength);
@@ -287,7 +287,7 @@ function func0(us, prov, times, leng, notWant) {
             times = 0;
     }
     if ((!(isFinite(leng))) || (leng === "")) {
-            leng = 40;
+            leng = wantedLength;
     }
 
     var strum =  us + prov + times + leng;
