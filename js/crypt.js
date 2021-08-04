@@ -1,6 +1,5 @@
 function hsore(str, noChar, wantedLength){
-	// console.log("Hey HSORE " + str);
-	// console.log("Hey HSORE " + str);
+	console.log("Hey HSORE " + str);
 	// console.log(document.getElementById("charCheck").checked);
 	if (document.getElementById("charCheck").checked != true) {
 		noChar += "| ~";
