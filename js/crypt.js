@@ -4,9 +4,6 @@ function hsore(str, noChar, wantedLength){
 	if (document.getElementById("charCheck").checked != true) {
 		noChar += "| ~";
 	}
-	if ((wantedLength == 0) || (wantedLength == '')) {
-		wantedLength = 40;
-	}
 	// console.log(noChar)
 	var crpt = new Array([]);
 	var outPtt = "";
@@ -289,10 +286,10 @@ function func0(us, prov, times, leng, notWant) {
 		times = 0;
 	}
 	if ((!(isFinite(leng))) || (leng === "")) {
-		leng = wantedLength;
+		leng = 40;
 	}
 
-	var strum = us + prov + times + leng;
+	var strum = us + prov + times + '40';
 
 //	console.log("Hey Func " + strum);
 //	console.log("times : " + times);
