@@ -4,6 +4,9 @@ function hsore(str, noChar, wantedLength){
 	if (document.getElementById("charCheck").checked != true) {
 		noChar += "| ~";
 	}
+	if (wantedLength = 0) {
+		wantedLength = 40;
+	}
 	// console.log(noChar)
 	var crpt = new Array([]);
 	var outPtt = "";
